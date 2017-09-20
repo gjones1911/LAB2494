@@ -1,0 +1,5 @@
+#!/bin/sh 
+
+for i in /home/plank/cs494/labs/Lab-1-FAT/Gradescripts/G* ; do
+  echo $i `sh $i`
+done
